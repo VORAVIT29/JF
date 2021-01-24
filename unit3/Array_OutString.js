@@ -1,4 +1,6 @@
 let furniture = ['Table', 'Chairs', 'Couch']
+
+/* Arrow Funtion */
 const SplitStr = (arry1) => {
     let i = 0
     for (let out of arry1) {
@@ -8,7 +10,7 @@ const SplitStr = (arry1) => {
         }
         i++
     }
-    return ('')
 };
 
-console.log(SplitStr(furniture))
+/* RUN */
+SplitStr(furniture)
