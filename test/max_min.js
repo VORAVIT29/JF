@@ -1,9 +1,9 @@
-var arr = [5,-5,47]
-var arr2 = []
+let arr = [5,-5,47]
+let arr2 = []
 
-var min = max = arr[0]
+let min = max = arr[0]
 console.log(arr)
-for(var i = 0 ; i < arr.length ; i++ ) {
+for(let i = 0 ; i < arr.length ; i++ ) {
     //console.log(arr[i])
     
  if(arr[i] < min){
