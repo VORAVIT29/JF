@@ -14,7 +14,7 @@ function alphabet_soup(str) {
 
         sum.splice(index, 1)
 
-        //convert number ascil to Letter
+        //convert number ascil to Letters
         str += String.fromCharCode(min)
 
         //check ArreySum is that empty 
