@@ -49,5 +49,4 @@ function char_frist(str) {
 
 //RUN
 let str = "MANCE RAYDER, KING-BEYOND-THE-WALL."
-let str1 = "Doran Martell, Prince of Dorne, Lord of Sunspear."
 console.log(char_frist(str))
