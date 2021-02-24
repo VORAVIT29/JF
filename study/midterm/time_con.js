@@ -32,6 +32,7 @@ function digitalClock(time) {
 
     while (true) {
         if (array[0] >= 24) array[0] = '00'
+        if (array[0] < 10) array[0] = '0' + hr //กูทำเอง earth งั้ยจะใครละ
         if (array[1] < 10) array[1] = '0' + m
         if (array[2] < 10) array[2] = '0' + s
         break
