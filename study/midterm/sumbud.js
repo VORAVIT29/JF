@@ -1,11 +1,11 @@
 function getBudgets(object) {
 
-    let sumbedget = 0
+    let sumbudget = 0
     for (let i = 0; i < object.length; i++) {
         //console.log(object[i].budget)
         sumbedget += object[i].budget;
     }
-    return (sumbedget)
+    return (sumbudget)
 
 }
 

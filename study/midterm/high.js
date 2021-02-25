@@ -8,7 +8,8 @@ function hightestDigit(num) {
     num = num.toString().match(/[1-9]/gi)
     return (Math.max(...num))
 
-    /*let max = 0  //วิธีที่ 2
+    /*num = num.toString().split('')
+    let max = 0 //วิธีที่ 2
     for (let i = 0; i < num.length; i++) {
         if (max < num[i]) {
             max = num[i]

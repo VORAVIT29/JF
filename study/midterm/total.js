@@ -9,6 +9,7 @@ function totalVolume() {
 
         for (check of arguments[i]) {
             numobject *= check
+                //numobject = numobject * check
         }
 
         sum += numobject

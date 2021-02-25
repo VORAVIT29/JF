@@ -1,7 +1,7 @@
 function digitalClock(time) {
 
     //วิธี 1
-    /*let hr = time / 3600
+    let hr = time / 3600
     hr = parseInt(hr)
     time = time - (hr * 3600)
     let Min = time / 60
@@ -18,10 +18,10 @@ function digitalClock(time) {
     if (time < 10) {
         time = '0' + time
     }
-    return (hr + ':' + Min + ':' + time)*/
+    return (hr + ':' + Min + ':' + time)
 
     //วิธี 2
-    let array = []
+    /*let array = []
     while (true) {
         array.push(hr = parseInt(time / 3600))
         time = time - (hr * 3600)
@@ -32,12 +32,12 @@ function digitalClock(time) {
 
     while (true) {
         if (array[0] >= 24) array[0] = '00'
-        if (array[0] < 10) array[0] = '0' + hr //กูทำเอง earth งั้ยจะใครละ
+        if (array[0] < 10) array[0] = '0' + hr
         if (array[1] < 10) array[1] = '0' + m
         if (array[2] < 10) array[2] = '0' + s
         break
     }
-    return (array.join(':'))
+    return (array.join(':'))*/
 }
 
 
