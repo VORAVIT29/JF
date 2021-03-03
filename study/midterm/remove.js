@@ -1,3 +1,4 @@
+//ลบตัวที่ซ้ำกัน
 function removeDups(array) {
     //วิธีที่ 1
     //return [...new Set(array)]

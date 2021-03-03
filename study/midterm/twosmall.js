@@ -1,3 +1,4 @@
+//หาค่าตัวที่น้อยที่สุด 2 ตัวแล้วเอามาบวกกัน
 function sumTwoSmallestNums(array) {
 
     let sumtwo = []

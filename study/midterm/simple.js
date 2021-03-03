@@ -1,3 +1,4 @@
+//มีเลขตัวไหนบ้างที่คูณกันแล้วเหมือนคำตอบ
 function simplePair(array, ans) {
 
     let newArr = []
@@ -7,14 +8,14 @@ function simplePair(array, ans) {
             if (i != j) {
                 if (array[i] * array[j] == ans) {
                     newArr.push(array[i], array[j])
-                    array.splice(i, 1)
-                    array.splice(j, 1)
+                    array.splice(i, 1).splice(j, 1)
+                        //array.splice(j, 1)
                 }
             }
         }
     }
 
-    //Check  Empty Array
+    //Check  Empty Array ไม่มีตัวไหนคูณกันและเหมือนคำตอบ
     if (newArr[0] === undefined) return (null);
     return newArr
 }

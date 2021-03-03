@@ -3,7 +3,7 @@ function getBudgets(object) {
     let sumbudget = 0
     for (let i = 0; i < object.length; i++) {
         //console.log(object[i].budget)
-        sumbedget += object[i].budget;
+        sumbudget += object[i].budget;
     }
     return (sumbudget)
 

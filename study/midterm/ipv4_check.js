@@ -53,7 +53,7 @@ function isValidIP(IPV4) {
 
 
 //RUN
-console.log(isValidIP("1.0.3.4"))
+console.log(isValidIP("1.2.3.4"))
 console.log(isValidIP("1.2.3"))
 console.log(isValidIP("1.2.3.4.5"))
 console.log(isValidIP("123.45.0.89"))
