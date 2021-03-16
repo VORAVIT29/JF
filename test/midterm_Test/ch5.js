@@ -25,5 +25,5 @@ function robot_pos(pos) {
         return 'GT-2'
     }
 
-    return 'Lost'
+    return 'Lost';
 }
