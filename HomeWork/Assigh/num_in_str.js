@@ -1,9 +1,7 @@
 function numInStr(num) {
     let num2 = []
-
     for (let i = 0; i < num.length; i++) {
         let stop = false
-
         for (let j = 0; j < num[i].length; j++) {
             //ใช้เช็คว่าตำแหน่งนั้นมีตัวเลขสักตัวไหม
             if (!isNaN(parseInt(num[i][j]))) {
@@ -11,11 +9,9 @@ function numInStr(num) {
                 break
             }
         }
-
         if (stop) {
             num2.push(num[i])
         }
-
     }
     return num2
 }
